@@ -13,7 +13,7 @@ function validarDatos(){
         alert("Campo Asunto es obligatorio")
         document.form.asunto.focus() 
 
-    }else if (document.form.mensaje.value=="" || document.form.mensaje.value.length <= 50 ){
+    }else if (document.form.mensaje.value=="" || document.form.mensaje.value.length >= 50 ){
         alert("Campo Mensaje es obligatorio y debe contener máximo 50 carateres") 
         document.form.mensaje.focus()
       
